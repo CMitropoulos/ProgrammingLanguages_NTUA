@@ -1,0 +1,17 @@
+package CDIO.pathFinder.tests;
+
+public class Bats {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mapWidth = 0, mapHeight = 0, nbElements = 0;
+//read arguments
+		mapWidth = Integer.parseInt(args[0].trim());
+		mapHeight =Integer.parseInt( args[1].trim());
+		nbElements = Integer.parseInt(args[2].trim());
+	}
+
+}
